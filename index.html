@@ -10,9 +10,9 @@
     body {
         margin: 0px;
         padding: 0px;
-        background-color: #dadce0;
+        background-color:#d2d8e3;
     }
-
+    
     .header {
         width: 100%;
         height: 70px;
@@ -22,6 +22,48 @@
         height: 60px;
         width: 60px;
         margin-left: 40px;
+        margin-right: 900px;
+    }
+    .homepage{
+        color: #1a73e8;
+        text-decoration: none;
+        margin-right: 85px;
+        font-size: 20px;
+       
+    }
+    .body{
+        margin-top:200px;
+        margin-left: 200px;
+    }
+    .info{
+        font-size: 50px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .aboutbtn{
+        height: 34px;
+        width: 150px;
+        border: 1px solid black;
+        border-radius: 20px;
+        background-color: #6ca4ed;
+        font-size: 16px;
+    }
+    .a_tag{
+        text-decoration: none;
+        color: black;
+    }
+    .iconbody{
+        display: flex;
+        
+    }
+    .icon{
+        margin-left: 170px;
+        margin-top: 30px;
+        margin-right: -150px;
+    }
+    .profile{
+        margin-left: 1200px;
+        margin-top:-335px;
+        border-radius: 50%;
     }
     
     
@@ -31,7 +73,61 @@
     <div class="header">
         <div class="logo">
            <img src="imglogo.png" class="imglogo" >
+           <a href="index.html" class="homepage"><B>HOME</B></a>
+           <a href="about.html" class="homepage"><b>ABOUT</b></a>
+           <a href="skill.html" class="homepage"><b>SKILLS</b></a>
+           <a href="education.html" class="homepage"><b>EDUCATION</b></a>
+           <a href="contact.html" class="homepage"><b>CONTACT</b></a>
+           
         </div>
+
+    </div>
+    <div class="body">
+        <div class="info">
+            <b> Hi,<br>I'm <span style="color: #1a73e8;">Samiksha Nikhare</span><br><span style="font-size: 30px;">Frontened Developer</span> </b><br>
+            <button class="aboutbtn">
+                <a href="about.html" class="a_tag">About me</a>
+                
+            </button>
+           
+        </div>
+    </div>
+    <div class="iconbody">
+        <div class="icon">
+    
+        </div>
+        <div class="icon">
+            <a href="https://www.linkedin.com/in/samiksha-nikhare-1703ba23b/">
+                <img src="linkedin.png" height="75px">
+            </a>
+            
+
+        </div>
+        <div class="icon">
+            <a href="https://github.com/Samikshanikhare">
+                <img src="github.png" height="75px">
+            </a>
+           
+
+        </div>
+        <div class="icon">
+            <a href="https://www.instagram.com/samikshanikhare_16/?next=%2Froast.ccx%2F&hl=en">
+                <img src="instagram.png" height="75px">
+            </a>
+           
+
+        </div>
+    
+        <div class="icon">
+            <a href="https://web.telegram.org/k/#777000">
+                <img src="telegram.png" height="75px">
+            </a>
+            
+
+        </div>
+    </div>
+    <div>
+        <img src="myphoto.jpeg" alt="profile" height="400px" width="400px" class="profile">
 
     </div>
    
